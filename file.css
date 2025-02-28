@@ -271,6 +271,7 @@ p {
   height: 100%;
   width: 100%;
   background-image: url("./home_bg.jpg");
+  filter: brightness(25%);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -615,19 +616,19 @@ p {
 }
 @media (max-width: 767px) {
 }
-@media(max-width:575px){
-  .home-text h1{
+@media (max-width: 575px) {
+  .home-text h1 {
     font-size: 30px;
     line-height: 45px;
   }
-  .home-text p{
+  .home-text p {
     font-size: 12px;
   }
   .about-text,
-  .about-img{
+  .about-img {
     width: 100%;
   }
-  .about-text h3{
+  .about-text h3 {
     font-size: 15px;
   }
 }
